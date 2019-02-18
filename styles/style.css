@@ -1,0 +1,72 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.text {
+  vertical-align: 10px;
+}
+
+a:hover {
+  color: #855885;
+  text-shadow: 0 0 0,5em #855885;
+}
+
+header {
+  display: block;
+  position: fixed;
+  right: 10px;
+  top:15px;
+}
+
+footer{
+  display: block;
+  position: fixed;
+  bottom: 13px;
+}
+
+button {
+  color: #59503f;
+  background-color: #e0d9cb;
+  border: 1px solid #d0c6b2;
+  width: 150px;
+  height: 35px;
+  margin: 30px 20px;
+}
+
+button:hover {
+  color: #353026;
+  background-color: #d0c6b2;
+}
+
+.boogle {
+  width: 500px;
+  margin: 200px auto 50px auto;
+  display: block;
+}
+
+.getform {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: 40px;
+  border-color: 3px solid #d0c6b2;
+  font-size: 22px;
+  padding-left: 5px;
+}
